@@ -6,6 +6,7 @@
 .navbar-items{
     display: flex;
     justify-content: space-between;
+    padding: 0px 30px;
 }
 
 .navbar-links{
@@ -23,8 +24,15 @@
     font-size: 0.875rem;
     font-weight: 400;
     cursor: pointer;
+    border: none;
 }
 
 .navbar-link:hover, .navbar-link.actived{
     background-color: var(--color-grey-2);
+}
+
+
+.navbar-title {
+    font-weight: 500;
+    color: var(--color-white-fixed);
 }

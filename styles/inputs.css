@@ -1,0 +1,21 @@
+.title-input{
+    height: 52px;
+    padding: 21px;   
+    border: 2px solid var(--color-grey-4);
+    border-radius: 4px;
+}
+
+.text-input{
+    padding-left: 21px;
+    height: 130px;
+    border: 2px solid var(--color-grey-4);
+    border-radius: 4px;
+}
+
+.text-input::placeholder{
+    color: var(--color-grey-3);
+}
+
+.title-input::placeholder{
+    color: var(--color-grey-3);  
+}

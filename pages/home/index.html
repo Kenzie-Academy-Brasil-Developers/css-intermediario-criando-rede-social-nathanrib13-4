@@ -1,19 +1,174 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/globalStyles.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>TechPosters - Home</title>
-  </head>
-  <body>
-    <header></header>
-    <main></main>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles/globalStyles.css" />
+  <link rel="stylesheet" href="/styles/navbar.css">
+  <link rel="stylesheet" href="/styles/buttons.css">
+  <link rel="stylesheet" href="/styles/inputs.css">
+  <link rel="stylesheet" href="/styles/modalMobile.css">
+  <link rel="stylesheet" href="/styles/posts.css">
+  <link rel="stylesheet" href="/styles/postSection.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>TechPosters - Home</title>
+</head>
+
+<body>
+
+  <body class="screen">
+    <nav class="navbar">
+    <header class="navbar-items navbar-links">
+      <h2 class="navbar-title">TechPosters</h1>
+      <button class="navbar-link">Sair</button>
+    </header>
+  </nav>
+    <main class="content">
+      <section class="posting-section">
+        <div class="profile-to-post">
+          <img src="/assets/img/user1.svg" alt="">
+          <div>
+          <h2>Samuel Leão</h2>
+          <p>Front end Engineer</p>
+        </div>
+        </div>
+        <div class="text-to-post">
+          <input type="text" class= "title-input" placeholder="Digitar título do post">
+          <input type="text" class= "text-input" placeholder="Digitar descrição post">
+          <button>Postar</button>
+        </div>
+      </section>
+      <section class="sugestions">
+        <h2>Sugestoes para você seguir</h2>
+        <ul class="sugestions-list">
+          <li>
+            <div>
+            <img src="/assets/img/user3.svg" alt="">
+            <div>
+            <h2>Carlos Lima</h2>
+            <p>UX e UI Desginer</p>
+            </div>
+            </div>
+            <button class="seguindo">Seguindo</button>
+          </li>
+          <li>
+            <div>
+            <img src="/assets/img/user6.svg" alt="">
+            <div>
+            <h2>Larissa Camargo</h2>
+            <p>UI Ddeveloper  Desginer</p>
+            </div>
+          </div>
+          <button class="seguir">Seguir</button>
+          </li>
+          <li>
+            <div>
+            <img src="/assets/img/user7.svg" alt="">
+            <div>
+            <h2>Filipe Guitierry</h2>
+            <p>Full Stack Developer</p>
+            </div>
+          </div>
+          <button class="seguir">Seguir</button>
+          </li>
+    
+        </ul>
+      </section>
+      <section class="posts">
+        <h1>Posts</h1>
+        <ul class="posts-list">
+          <li>
+            <div>
+            <div class="profile-posted">
+              <img src="/assets/img/user1.svg" alt="">
+              <div>
+              <h2>Samuel Leão</h2>
+              <p>Front end Engineer</p>
+            </div>
+          </div>
+            <div class="post">
+              <p class="post-title">Como criar um interface simples e agradável utilizando boas práticas de design</p>
+              <p class="post-text">
+                Hoje vamos conversar sobre como criar uma interface agradável mesmo sem ter um design pronto feito por
+                um profissional de UI design.
+              </p>
+              <div>
+              <button id="post-1" class="open-post">Abrir Post</button>
+              <p> 🤍 25</p>
+              </div>
+            </div>
+            </li>
+            <li>
+                <div>
+                <div class="profile-posted">
+                  <img src="/assets/img/user2.svg" alt="">
+                  <div>
+                  <h2>Samuel Persuhn</h2>
+                  <p>Front end Engineer</p>
+                </div>
+              </div>
+                <div class="post">
+                  <p class="post-title">Empresa de Tecnologia da Informação abre vagas para programa de estágio</p>
+                  <p class="post-text">
+                    A Generic Digital, empresa natalence especializada em Tecnologia da Informação, irá iniciar o seu sexto programa de estágio, com o prazo de inscrições entre os dias 10 e 28 de agosto. 
+                  </p>
+                  <div>
+                  <button class="open-post">Abrir Post</button>
+                  <p> ❤️ 25</p>
+                  </div>
+                </div>
+                </li>
+              <li>
+                  <div>
+                  <div class="profile-posted">
+                    <img src="/assets/img/user4.svg" alt="">
+                    <div>
+                    <h2>Carla Maria</h2>
+                    <p>Back end Engineer</p>
+                  </div>
+                </div>
+                  <div class="post">
+                    <p class="post-title">
+                      Como melhorar sua lógica de programação? Desenvolvemos 5 passos para te ajudar</p>
+                    <p class="post-text">
+                      Para quem está começando na área de T.I, em pleno século 21 este conceito pode parecer um grande desafio, pois requer muitas habilidades em diversas áreas de estudo, principalmente... 
+                    </p>
+                    <div>
+                    <button class="open-post">Abrir Post</button>
+                    <p> 🤍 19</p>
+                    </div>
+                  </div>
+                  </li>
+                <li>
+                  <div>
+                    <div class="profile-posted">
+                      <img src="/assets/img/user5.svg" alt="">
+                      <div>
+                      <h2>Julia Martins</h2>
+                      <p>Devop's</p>
+                    </div>
+                  </div>
+                    <div class="post">
+                      <p class="post-title">
+                        NextJS como essa ferramenta revolucionou a maneira de desenvolver sites</p>
+                      <p class="post-text">
+                        Provavelmente, você já ouviu falar do Next.js, considerado o framework mais popular do mercado. Com a expansão do mercado de tecnologia e sua influência em serviços de diver...
+                      </p>
+                      <div>
+                      <button class="open-post">Abrir Post</button>
+                      <p> 🤍 8</p>
+                      </div>
+                    </div>
+                    </li>
+        </ul>
+      </section>
+    </main>
   </body>
   <script src="/script/database/users.js"></script>
   <script src="/script/database/posts.js"></script>
   <script src="/script/database/sugestUsers.js"></script>
   <script src="index.js"></script>
+
 </html>

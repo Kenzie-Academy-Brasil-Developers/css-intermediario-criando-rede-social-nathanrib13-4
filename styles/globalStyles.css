@@ -7,11 +7,25 @@
 }
 
 :root{
+    --color-brand-1: #4263EB;
+    --color-brand-2: #364FC7;
     --color-grey-1: #212529;
     --color-grey-2: #495057;
+    --color-grey-3: #868E96;
+    --color-grey-4: #DEE2E6;
+    --color-grey-5: #F8F9FA;
     --color-white-fixed: #ffffff;
+
     --radius-1: 0.25rem;
+
     --font-family-1: "Inter", sans-serif;
+
+    --img-width: 52px
+}
+
+.screen{
+    position: relative;
+    width: 100%;
 }
 
 body{

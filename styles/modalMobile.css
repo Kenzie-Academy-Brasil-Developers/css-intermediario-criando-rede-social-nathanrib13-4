@@ -1,0 +1,52 @@
+.modal-page{
+    width: 900px;
+    height: 2448px;
+    padding: 20px;
+    margin: 0;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.411);
+    position: absolute;
+    top: 0
+}
+
+.modal-container{
+    background-color: var(--color-white-fixed);
+    position: absolute;
+    padding: 40px 24px 40px 24px;
+    width: 360px;
+    height: 1020px;
+    border-radius: 8px ;
+    top: 50px;
+    left: 30px ;
+}
+
+.profile-modal{
+    display: flex;
+}
+
+.profile-modal>div{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 8px;
+}
+
+.profile-modal>img{
+    width: var(--img-width);
+}
+
+.post-title-modal{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 25px 0px 25px 0px;
+    color: var(--color-grey-1);
+    line-height: 40px;
+}
+
+.post-modal{
+    font-size: 16px;
+    color: var(--color-grey-2);
+    margin-bottom: 25px ;
+    font-weight: 400;
+    line-height: 28px;
+}
