@@ -1,6 +1,8 @@
 
 main {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -88,10 +90,15 @@ main {
         font-weight: 600;
     }
     
+    .top-part-post {
+        display: flex;
+        gap: 100px;
+    }
+
     .sugestions{
-        position: fixed;
-        left: 950px;
-        bottom: 400px
+       position: fixed;
+       top: 100px;  
+       left: 900px;
     }
 
     .sugestions > h2{
@@ -172,7 +179,7 @@ main {
         height: 2107px;
         padding: 20px;
         margin: 0px;
-        position: absolute;
+        position: fixed;
         background-color: rgba(0, 0, 0, 0.411);
     }
     
