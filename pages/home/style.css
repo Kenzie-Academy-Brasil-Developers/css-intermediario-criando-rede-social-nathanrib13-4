@@ -3,6 +3,7 @@ main {
     margin: 20px;
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -96,9 +97,10 @@ main {
     }
 
     .sugestions{
-       position: fixed;
+       position: sticky;
        top: 100px;  
-       left: 900px;
+       margin-left: 800px;
+       margin-top: -500px;
     }
 
     .sugestions > h2{
