@@ -20,7 +20,7 @@ function createOpenPostModal(){
     postTitleModal.classList.add("post-title-modal")
     postModal.classList.add("post-modal")
 
-    imgProfileModal.src = "/assets/img/user1.svg"
+    imgProfileModal.src = "./assets/img/user1.svg"
     profileName.innerText = "Samuel Leão"
     profileFunction.innerText = "Front end Engineer"
     closeModal.innerText = "X" 
